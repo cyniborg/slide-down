@@ -1,0 +1,20 @@
+/* Styles go here */
+body{
+  margin:0;
+  padding:0;
+}
+.circle{
+        background-color: aqua;
+        height: 0;
+        opacity: 0;
+        max-height:100%;
+        max-width:100%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        overflow: hidden;
+        transition: height 1s ease-out 0.2s, border-bottom-right-radius 1s ease 0.5s, border-bottom-left-radius 1s ease 0.5s;
+      }
+       #button{
+         position:absolute;
+         top:0;
+       }
